@@ -5,6 +5,7 @@ import App from './App'
 import manageUsers from './reducers/manageUsers'
 
 import {createStore} from 'redux'
+import {Provider} from 'react-redux'
 
 
 ReactDOM.render(
