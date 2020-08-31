@@ -17,5 +17,4 @@ class Users extends Component {
 
 //add mapStateToProps here
 
-// connect this component to Redux
-export default Users
+export default connect(mapStateToProps)(Users)
